@@ -5,14 +5,21 @@ import {
   FaXTwitter,
   FaLinkedinIn,
   FaReact,
+  FaHtml5,
+  FaCss3,
 } from "react-icons/fa6";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiFigma,
+  SiNextdotjs,
+  SiTypescript,
+} from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "A Professional Coder.",
       "A Frontend Developer.",
+      "A Professional Programmer.",
       "with Keen Eyes for Responsive Designs.",
     ],
     loop: true,
@@ -51,7 +58,7 @@ const LeftBanner = () => {
           cross-functional teams to deliver innovative solutions.
         </p>
       </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+      <div className="flex flex-col xl:gap-6 lgl:gap-6 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
@@ -87,7 +94,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 ">
             <span className="bannerIcon">
               <FaReact />
             </span>
@@ -99,6 +106,15 @@ const LeftBanner = () => {
             </span>
             <span className="bannerIcon">
               <SiFigma />
+            </span>
+            <span className="bannerIcon">
+              <SiTypescript />
+            </span>
+            <span className="bannerIcon">
+              <FaHtml5 />
+            </span>
+            <span className="bannerIcon">
+              <FaCss3 />
             </span>
           </div>
         </div>

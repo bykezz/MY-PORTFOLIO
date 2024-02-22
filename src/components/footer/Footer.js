@@ -1,22 +1,42 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import React from "react";
+import { FaInstagram, FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+import { logo } from "../../assets/index";
 
 const Footer = () => {
+  const instagramProfileUrl = "https://www.instagram.com/bykezz/";
+  const xProfileUrl = "https://twitter.com/bykezzzz";
+  const linkedInProfileUrl =
+    "https://www.linkedin.com/in/pascal-ugwu-211113221/";
+
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
+          <a
+            href={instagramProfileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href={xProfileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
+            <FaXTwitter />
+          </a>
+          <a
+            href={linkedInProfileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bannerIcon"
+          >
             <FaLinkedinIn />
-          </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">
@@ -132,6 +152,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
