@@ -1,6 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaInstagram,FaTwitter FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
@@ -17,7 +18,8 @@ const LeftBanner = () => {
   });
   const instagramProfileUrl = "https://www.instagram.com/bykezz/";
   const xProfileUrl = "https://twitter.com/bykezzzz";
-  const linkedInProfileUrl = "https://www.facebook.com/your-profile-url";
+  const linkedInProfileUrl =
+    "https://www.linkedin.com/in/pascal-ugwu-211113221/";
 
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
@@ -65,11 +67,16 @@ const LeftBanner = () => {
               rel="noopener noreferrer"
               className="bannerIcon"
             >
-              <FaTwitter />
+              <FaXTwitter />
             </a>
-            <span className="bannerIcon">
+            <a
+              href={linkedInProfileUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bannerIcon"
+            >
               <FaLinkedinIn />
-            </span>
+            </a>
           </div>
         </div>
         <div>
