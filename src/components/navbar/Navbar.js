@@ -45,9 +45,15 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                  An Experienced Front-end Engineer Proficient in developing web
+                  applications using JavaScript, HTML5, CSS3, Typescript, React
+                  JS, Next JS, Tailwind CSS and some Backend technologies like
+                  Java, Python, MySQL. A certified project management
+                  professional with a strong understanding of responsive design,
+                  cross-browser compatibility, and user experience. Adept at
+                  working in fast-paced, deadline-driven environments, and
+                  collaborating with cross-functional teams to deliver
+                  innovative solutions.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

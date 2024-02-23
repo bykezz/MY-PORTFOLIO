@@ -41,7 +41,7 @@ const Features = () => {
         />
         <Card
           title="Hosting Websites"
-          des="Experienced in using services like Netlify, Vercel, or AWS to ensure reliable and scalable hosting solutions for web applications."
+          des="Experienced in using services like Firebase, Heroku, or AWS to ensure reliable and scalable hosting solutions for web applications."
           icon={<FaGlobe />}
         />
       </div>

@@ -15,7 +15,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2008 - 2020</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="B.Tech in Electrical and Electronics Engineering"
             subTitle="Jawaharlal Nehru Technological University India (2016 - 2020)"
@@ -37,20 +37,20 @@ const Education = () => {
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">
-            2020 - Current
+            2020 - Present
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Frontend Developer"
-            subTitle="Seven Star Consultants Limited - (2022 - Present)"
+            subTitle="Seven Star Consultants Limited - (2023 - Present)"
             result="Nigeria"
             des="Seven Star Consultants Limited is a multi-faceted company dedicated to delivering excellence and client satisfaction through high-quality products and services."
           />
           <ResumeCard
             title="Software Engineer"
-            subTitle="Sipcon Nigeria Limited - (2012 - 2016)"
+            subTitle="Sipcon Nigeria Limited - (2020 - 2022)"
             result="Nigeria"
             des="A Construction Company driven by softwares and renders easy quick construction solutions through ICT."
           />

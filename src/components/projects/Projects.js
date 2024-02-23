@@ -1,10 +1,19 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {
+  projectOne,
+  farmjoint,
+  carrental,
+  chatting,
+  flight,
+  eventTicketing,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const gitHubUrl = "https://github.com/bykezz?tab=repositories";
+  const farmjointUrl = "https://test.farmjoint.co/";
+  const farmjointGitUrl = "https://github.com/bykezz/FARM-JOINT";
   return (
     <section
       id="projects"
@@ -21,40 +30,42 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="FARM JOINT"
+          des=" An agro value chain platform development by the Tech team at Seven Star 
+          Consultants Limited to enhance the productivity of the agricultural system in Nigeria!"
+          src={farmjoint}
+          href={farmjointUrl}
+          hrefGit={farmjointGitUrl}
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="EVENT TICKETING APP"
+          des=" Discover, book, and attend events effortlessly with my Event Ticketing App! Streamline your
+           event experience with a user-friendly interface, comprehensive calendar, and exclusive perks! "
+          src={eventTicketing}
         />
         <ProjectsCard
           title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
+          des="Connect effortlessly with my Chatting App! Enjoy seamless real-time messaging, a user-friendly
+           interface, multimedia sharing, and secure conversations!"
+          src={chatting}
+        />
+        <ProjectsCard
+          title="FLIGHT BOOKING"
+          des="Plan your travels with ease using my Flight Booking platform. From searching for the best deals to 
+          securing your seat, the platform ensures a smooth and stress-free booking process!"
+          src={flight}
+        />
+        <ProjectsCard
+          title="GYM DAY"
+          des="Elevate your fitness journey with the Gym Day app. Track your workouts, set goals, 
+          and stay motivated on your path to a healthier lifestyle. Gym Day is your ultimate fitness companion!"
+          src={projectOne}
+        />
+        <ProjectsCard
+          title="CAR RENTAL APP"
+          des="Experience the freedom of travel with my Car Rental App. From compact cars to spacious SUVs, 
+          find the perfect vehicle for your journey and hit the road with confidence!"
+          src={carrental}
         />
       </div>
     </section>
