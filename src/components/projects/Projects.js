@@ -16,6 +16,8 @@ const Projects = () => {
   const farmjointGitUrl = "https://github.com/bykezz/FARM-JOINT";
   const dashboardUrl = "https://dashboard-pascal.vercel.app/";
   const dashboardGitUrl = "https://github.com/bykezz/Dashboard";
+  const carrentalUrl = "https://car-rental-pascal.netlify.app/";
+  const carrentalGitUrl = "https://github.com/bykezz/Car-Rental";
   return (
     <section
       id="projects"
@@ -44,6 +46,8 @@ const Projects = () => {
           des="Experience the freedom of travel with my Car Rental Web App. From compact cars to spacious SUVs, 
           find the perfect vehicle for your journey and hit the road with confidence!"
           src={carrental}
+          href={carrentalUrl}
+          hrefGit={carrentalGitUrl}
         />
         <ProjectsCard
           title="Dashboard"
