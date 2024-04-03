@@ -14,6 +14,8 @@ const Projects = () => {
   const gitHubUrl = "https://github.com/bykezz?tab=repositories";
   const farmjointUrl = "https://test.farmjoint.co/";
   const farmjointGitUrl = "https://github.com/bykezz/FARM-JOINT";
+  const dashboardUrl = "https://dashboard-pascal.vercel.app/";
+  const dashboardGitUrl = "https://github.com/bykezz/Dashboard";
   return (
     <section
       id="projects"
@@ -48,6 +50,8 @@ const Projects = () => {
           des="Access your personalized dashboard to stay connected effortlessly, Enjoy seamless real-time Data, Reports, 
             a user-friendly interface, and secure Transactions!"
           src={dashboard}
+          href={dashboardUrl}
+          hrefGit={dashboardGitUrl}
         />
         <ProjectsCard
           title="GYM BUDDY"
