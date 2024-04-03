@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f43d7f07.css",
+    "main.js": "/static/js/main.35869621.js",
+    "static/media/bannerImg.png": "/static/media/bannerImg.1cabf3125f83411b85b4.png",
+    "static/media/eventTicketing.png": "/static/media/eventTicketing.b3f9537c00c8ed0e5be0.png",
+    "static/media/farmjoint.png": "/static/media/farmjoint.b4f95ca791ed68edf9f7.png",
+    "static/media/gym.png": "/static/media/gym.1f90328bfa6864de4076.png",
+    "static/media/car rental.png": "/static/media/car rental.2324de649d0e92460ae5.png",
+    "static/media/dashboard.png": "/static/media/dashboard.71e3df7af27eb149220e.png",
+    "static/media/flight.png": "/static/media/flight.216eaa94c11e9efd3a4a.png",
+    "static/media/logo.png": "/static/media/logo.cf60a379bce135026956.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialTwo.jpeg": "/static/media/testimonialTwo.21ba15203bf3bbde7b32.jpeg",
+    "static/media/testimonialOne.jpeg": "/static/media/testimonialOne.3aa94bd686ae9bdf5718.jpeg",
+    "static/media/testimonialThree.jpeg": "/static/media/testimonialThree.a776803fd1a99804621e.jpeg",
+    "index.html": "/index.html",
+    "main.f43d7f07.css.map": "/static/css/main.f43d7f07.css.map",
+    "main.35869621.js.map": "/static/js/main.35869621.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f43d7f07.css",
+    "static/js/main.35869621.js"
+  ]
+}
