@@ -18,6 +18,8 @@ const Projects = () => {
   const dashboardGitUrl = "https://github.com/bykezz/Dashboard";
   const carrentalUrl = "https://car-rental-pascal.netlify.app/";
   const carrentalGitUrl = "https://github.com/bykezz/Car-Rental";
+  const gymBuddyUrl = "https://gym-buddy-pascal.netlify.app/";
+  const gymBuddyGitUrl = "https://github.com/bykezz/Gym-Buddy";
   return (
     <section
       id="projects"
@@ -62,6 +64,8 @@ const Projects = () => {
           des="Elevate your fitness journey with the Gym Buddy app. Track your workouts, set goals, 
           and stay motivated on your path to a healthier lifestyle. Gym Buddy is your ultimate fitness companion!"
           src={gym}
+          href={gymBuddyUrl}
+          hrefGit={gymBuddyGitUrl}
         />
         <ProjectsCard
           title="FLIGHT BOOKING"
