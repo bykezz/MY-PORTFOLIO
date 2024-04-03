@@ -3,6 +3,7 @@ import Title from "../layouts/Title";
 import {
   farmjoint,
   carrental,
+  dashboard,
   flight,
   eventTicketing,
   gym,
@@ -46,7 +47,7 @@ const Projects = () => {
           title="Dashboard"
           des="Access your personalized dashboard to stay connected effortlessly, Enjoy seamless real-time Data, Reports, 
             a user-friendly interface, and secure Transactions!"
-          src={carrental}
+          src={dashboard}
         />
         <ProjectsCard
           title="GYM BUDDY"
