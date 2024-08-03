@@ -18,9 +18,9 @@ import {
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "A Frontend Developer.",
+      "A Full-stack Developer.",
       "A Professional Programmer.",
-      "with Keen Eyes for Responsive Designs.",
+      "Building both Web and Mobile Apps.",
     ],
     loop: true,
     typeSpeed: 20,
