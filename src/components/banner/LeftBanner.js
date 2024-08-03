@@ -49,14 +49,15 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          An Experienced Front-end Engineer Proficient in developing web
-          applications using JavaScript, HTML5, CSS3, Typescript, React JS, Next
-          JS, Tailwind CSS and some Backend technologies like Java, Python,
-          MySQL. A certified project management professional with a strong
-          understanding of responsive design, cross-browser compatibility, and
-          user experience. Adept at working in fast-paced, deadline-driven
-          environments, and collaborating with cross-functional teams to deliver
-          innovative solutions.
+          An Experienced Full-stack Developer Proficient in developing web and
+          mobile applications using JavaScript, HTML5, CSS3, Typescript, React
+          JS, React Native, Vue JS, Next JS, Tailwind CSS and Backend
+          technologies like Node JS, Express, Firebase, MySQL. A certified
+          project management professional with a strong understanding of
+          responsive design, cross-browser compatibility, and user experience.
+          Adept at working in fast-paced, deadline-driven environments, and
+          collaborating with cross-functional teams to deliver innovative
+          solutions.
         </p>
       </div>
       <div className="flex flex-col xl:gap-6 lgl:gap-6 justify-between">
