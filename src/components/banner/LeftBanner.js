@@ -20,7 +20,7 @@ const LeftBanner = () => {
     words: [
       "A Full-stack Developer.",
       "A Professional Programmer.",
-      "Building both Web and Mobile Apps.",
+      "Builds both Web and Mobile Apps.",
     ],
     loop: true,
     typeSpeed: 20,
