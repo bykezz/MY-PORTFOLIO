@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineApi } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaMobile, FaGlobe, FaDatabase } from "react-icons/fa";
+import { SiAntdesign } from "react-icons/si";
 import { TbWorldCheck } from "react-icons/tb";
 import Title from "../layouts/Title";
 import Card from "./Card";
@@ -25,6 +25,11 @@ const Features = () => {
           icon={<FaMobile />}
         />
         <Card
+          title="Backend Development"
+          des="Understands the importance of Agile development structure, organizing database, and improving user data security while following industrial standards."
+          icon={<FaDatabase />}
+        />
+        <Card
           title="APIs Integration"
           des="Experienced in integrating APIs to fetch and display data, connect with external services, Familiar with RESTful and GraphQL APIs."
           icon={<AiOutlineApi />}
@@ -35,12 +40,7 @@ const Features = () => {
           icon={<SiAntdesign />}
         />
         <Card
-          title="SEO Optimization"
-          des="Understands the importance of meta tags, structured data, and other SEO strategies to improve online presence."
-          icon={<SiProgress />}
-        />
-        <Card
-          title="Hosting Websites"
+          title="Web Hosting"
           des="Experienced in using services like Firebase, Heroku, or AWS to ensure reliable and scalable hosting solutions for web applications."
           icon={<FaGlobe />}
         />
