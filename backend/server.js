@@ -1,21 +1,20 @@
-// backend/server.js
-
 const express = require("express");
+const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
+const cors = require("cors");
 require("dotenv").config();
 
 const app = express();
-app.use(express.json());
+const port = process.env.PORT || 5000;
+
+app.use(cors());
+app.use(bodyParser.json());
 
 app.post("/api/send", async (req, res) => {
   const { username, phoneNumber, email, subject, message } = req.body;
 
-  if (!username || !phoneNumber || !email || !subject || !message) {
-    return res.status(400).json({ error: "All fields are required" });
-  }
-
   const transporter = nodemailer.createTransport({
-    service: "Gmail",
+    service: "gmail",
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD,
@@ -25,25 +24,19 @@ app.post("/api/send", async (req, res) => {
   const mailOptions = {
     from: email,
     to: process.env.EMAIL,
-    subject: `Contact Form Submission: ${subject}`,
-    text: `
-        Name: ${username}
-        Phone Number: ${phoneNumber}
-        Email: ${email}
-        Message: ${message}
-      `,
+    subject: subject,
+    text: `Name: ${username}\nPhone Number: ${phoneNumber}\nEmail: ${email}\nMessage: ${message}`,
   };
 
   try {
     await transporter.sendMail(mailOptions);
-    res.status(200).json({ message: "Email sent successfully" });
+    res.status(200).send({ message: "Email sent successfully" });
   } catch (error) {
     console.error("Error sending email:", error);
-    res
-      .status(500)
-      .json({ error: "Error sending email", details: error.message });
+    res.status(500).send({ error: "Error sending email" });
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
