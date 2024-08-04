@@ -27,7 +27,7 @@ const Features = () => {
         />
         <Card
           title="Backend Development"
-          des="Understands the importance of Agile development structure, organizing database, and improving user data security while following industrial standards."
+          des="Understands the importance of Agile development structure, organizing database and improving data security while following industrial standards."
           icon={<FaServer />}
         />
         <Card
