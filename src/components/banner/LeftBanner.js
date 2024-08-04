@@ -8,8 +8,15 @@ import {
   FaHtml5,
   FaCss3,
 } from "react-icons/fa6";
-import { SiTailwindcss, SiNextdotjs, SiTypescript } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiJavascript,
+  SiExpress,
+  SiFirebase,
+} from "react-icons/si";
 import { DiNodejs } from "react-icons/di";
+import { RiVuejsFill } from "react-icons/ri";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -97,22 +104,31 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
-            </span>
-            <span className="bannerIcon">
-              <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
               <DiNodejs />
             </span>
             <span className="bannerIcon">
-              <SiTypescript />
+              <SiExpress />
+            </span>
+            <span className="bannerIcon">
+              <RiVuejsFill />
+            </span>
+            <span className="bannerIcon">
+              <SiFirebase />
+            </span>
+            <span className="bannerIcon">
+              <SiNextdotjs />
+            </span>
+            <span className="bannerIcon">
+              <SiJavascript />
             </span>
             <span className="bannerIcon">
               <FaHtml5 />
             </span>
             <span className="bannerIcon">
               <FaCss3 />
+            </span>
+            <span className="bannerIcon">
+              <SiTailwindcss />
             </span>
           </div>
         </div>
