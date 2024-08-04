@@ -44,7 +44,14 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full  border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Frontend Developer"
-            subTitle="Seven Star Consultants Limited - (2023 - Present)"
+            subTitle="Enlauncher - (2024 - Present)"
+            result="Nigeria"
+            des="Enlauncher is a software company dedicated to building modern software products for every Tech need. 
+            delivering high-quality Tech solutions and services in Nigeria."
+          />
+          <ResumeCard
+            title="Frontend Developer"
+            subTitle="Seven Star Consultants Limited - (2023 - 2024)"
             result="Nigeria"
             des="Seven Star Consultants Limited is a multi-faceted company dedicated to delivering excellence and client satisfaction through high-quality products and services."
           />
