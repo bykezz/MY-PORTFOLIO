@@ -36,13 +36,16 @@ const Contact = () => {
       setErrMsg("Message is required!");
     } else {
       try {
-        const response = await axios.post("http://localhost:5000/api/send", {
-          username,
-          phoneNumber,
-          email,
-          subject,
-          message,
-        });
+        const response = await axios.post(
+          "https://my-portfolio-three-alpha-20.vercel.app/api/send",
+          {
+            username,
+            phoneNumber,
+            email,
+            subject,
+            message,
+          }
+        );
         if (response.status === 200) {
           setSuccessMsg(
             `Thank you dear ${username}, Your Messages has been sent Successfully!`
