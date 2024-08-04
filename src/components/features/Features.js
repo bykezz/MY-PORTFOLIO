@@ -1,10 +1,11 @@
 import React from "react";
 import { AiOutlineApi } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaDatabase } from "react-icons/fa";
+import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiAntdesign } from "react-icons/si";
 import { TbWorldCheck } from "react-icons/tb";
 import Title from "../layouts/Title";
 import Card from "./Card";
+import { FaServer } from "react-icons/fa6";
 
 const Features = () => {
   return (
@@ -27,7 +28,7 @@ const Features = () => {
         <Card
           title="Backend Development"
           des="Understands the importance of Agile development structure, organizing database, and improving user data security while following industrial standards."
-          icon={<FaDatabase />}
+          icon={<FaServer />}
         />
         <Card
           title="APIs Integration"
