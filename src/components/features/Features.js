@@ -31,7 +31,7 @@ const Features = () => {
           icon={<FaServer />}
         />
         <Card
-          title="APIs Integration"
+          title="API Integration"
           des="Experienced in integrating APIs to fetch and display data, connect with external services, Familiar with RESTful and GraphQL APIs."
           icon={<AiOutlineApi />}
         />
