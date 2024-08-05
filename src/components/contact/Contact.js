@@ -48,7 +48,7 @@ const Contact = () => {
         );
         if (response.status === 200) {
           setSuccessMsg(
-            `Thank you dear ${username}, Your Messages has been sent Successfully!`
+            `Thank you dear ${username}, your message has been sent successfully!`
           );
           setErrMsg("");
           setUsername("");
