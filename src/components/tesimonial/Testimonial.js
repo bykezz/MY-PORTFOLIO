@@ -191,10 +191,10 @@ const Testimonial = () => {
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     Pascal Ugwu is a true professional with exceptional skills
-                    in frontend web development. He has a keen eye for design,
-                    turning our ideas into a visually stunning reality. His
-                    commitment to delivering high-quality, responsive, and
-                    user-friendly websites is commendable.
+                    in both frontend and backend development. He has a keen eye
+                    for design, turning our ideas into a visually stunning
+                    reality. His commitment to delivering high-quality,
+                    responsive, and user-friendly websites is commendable.
                   </p>
                 </div>
               </div>
@@ -241,13 +241,13 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    If you're looking for a frontend developer who brings both
+                    If you're looking for a full-stack developer who brings both
                     technical expertise and creative flair to the table, Pascal
                     is the one. His ability to transform complex ideas into
                     visually appealing and intuitive interfaces is outstanding.
-                    Timely delivery, clear communication, and a passion for
-                    their work make them a standout choice in the frontend
-                    development realm.
+                    Timely delivery, clear communication, and the passion for
+                    his work makes him a standout choice in the development
+                    realm.
                   </p>
                 </div>
               </div>
