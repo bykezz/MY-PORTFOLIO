@@ -124,7 +124,7 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
+                    <div className="w-full lgl:w-auto flex flex-col lgl:items-center">
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide ">
                         Farm Joint
                       </h3>
@@ -173,7 +173,7 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
+                    <div className="w-full lgl:w-auto flex flex-col lgl:items-center">
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         A Social Chatting App
                       </h3>
@@ -224,7 +224,7 @@ const Testimonial = () => {
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
-                    <div>
+                    <div className="w-full lgl:w-auto flex flex-col lgl:items-center">
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Travel Mobile App
                       </h3>
