@@ -96,7 +96,7 @@ const LeftBanner = () => {
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            BEST SKILL ON
+            AREAS OF EXPERTISE
           </h2>
           <div className="flex gap-4 ">
             <span className="bannerIcon">
