@@ -125,11 +125,11 @@ const Testimonial = () => {
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Agricultural e-commerce Web App.
+                      <h3 className="text-xl lgl:text-2xl font-medium tracking-wide ">
+                        Farm Joint
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        Remote - Jul 8, 2023 - Jan 30, 2024
+                        SSC - Jul 8, 2023 - Jan 30, 2024
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -175,7 +175,7 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        A Social Chatting App.
+                        A Social Chatting App
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
                         via Upwork - Mar 4, 2020 - Aug 30, 2020
