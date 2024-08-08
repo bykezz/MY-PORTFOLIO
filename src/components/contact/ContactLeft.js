@@ -17,7 +17,9 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Pascal Ugwu</h3>
-        <p className="text-lg font-normal text-gray-400">Frontend Developer</p>
+        <p className="text-lg font-normal text-gray-400">
+          Full-stack Developer
+        </p>
         <p className="text-base text-gray-400 tracking-wide">
           You can always trust your projects are in safe and competent hands
         </p>
