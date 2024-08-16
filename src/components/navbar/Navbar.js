@@ -45,11 +45,12 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  An Experienced Front-end Engineer Proficient in developing web
-                  applications using JavaScript, HTML5, CSS3, Typescript, React
-                  JS, Next JS, Tailwind CSS and some Backend technologies like
-                  Java, Python, MySQL. A certified project management
-                  professional with a strong understanding of responsive design,
+                  An Experienced Full-stack Developer Proficient in developing
+                  web and mobile applications using technologies like
+                  JavaScript, HTML5, CSS3, Typescript, React JS, React Native,
+                  Vue JS, Next JS, Tailwind, Node JS, Express, Firebase, MySQL,
+                  MongoDB, Python. A certified project management professional
+                  with a strong understanding of responsive design,
                   cross-browser compatibility, and user experience. Adept at
                   working in fast-paced, deadline-driven environments, and
                   collaborating with cross-functional teams to deliver
