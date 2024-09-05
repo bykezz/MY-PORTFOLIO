@@ -12,7 +12,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const gitHubUrl = "https://github.com/bykezz?tab=repositories";
-  const farmjointUrl = "https://test.farmjoint.co/";
+  const farmjointUrl = "https://farmjoint.co/";
   const farmjointGitUrl = "https://github.com/bykezz/FARM-JOINT";
   const dashboardUrl = "https://dashboard-pascal.vercel.app/";
   const dashboardGitUrl = "https://github.com/bykezz/Dashboard";
